@@ -1,0 +1,585 @@
+{
+    "roasters": {
+        "Rabbit Hole Roasters": {
+            "timestamp": "2025-05-25",
+            "coffee_data": [
+                {
+                    "name": "Ixhuatlan",
+                    "price": "24.00",
+                    "roast_lvl": "2.5/5",
+                    "country": "Mexico",
+                    "process": "washed",
+                    "tasting_notes": "orange, hazelnut, pear, milk chocolate",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/ixhuatlan"
+                },
+                {
+                    "name": "Geovany Rodriguez",
+                    "price": "24.00",
+                    "roast_lvl": "2/5",
+                    "country": "Honduras",
+                    "process": "Natural",
+                    "tasting_notes": "hibiscus, pistachio, blueberry, raisin",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/geovany-rodriguez"
+                },
+                {
+                    "name": "Alejandro Rodriguez",
+                    "price": "23.00",
+                    "roast_lvl": "3/5",
+                    "country": "Guatemala",
+                    "process": "Washed",
+                    "tasting_notes": "pear, vanilla, pecan, brown sugar",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/alejandro-rodriguez"
+                },
+                {
+                    "name": "Robusta - Trung Huynh Farm",
+                    "price": "30.00",
+                    "roast_lvl": "2.5/5",
+                    "country": "VietNam",
+                    "process": "Natural",
+                    "tasting_notes": "green apple, clove, brown sugar, dried apricot, popcorn",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/robusta-trung-huynh-farm"
+                },
+                {
+                    "name": "Kii Light",
+                    "price": "24.00",
+                    "roast_lvl": "2.5/5",
+                    "country": "Kenya",
+                    "process": "Washed",
+                    "tasting_notes": "black currant, dark chocolate, mango",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/kii-light"
+                },
+                {
+                    "name": "Kii Dark",
+                    "price": "24.00",
+                    "roast_lvl": "3.5/5",
+                    "country": "Kenya",
+                    "process": "Washed",
+                    "tasting_notes": "raspberry jam, cacao, caramel, grapefruit",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/kii-dark"
+                },
+                {
+                    "name": "Decaf Mexico",
+                    "price": "23.50",
+                    "roast_lvl": "3/5",
+                    "country": "Mexico",
+                    "process": "washed coffee & mountain water decaffeination process",
+                    "tasting_notes": "meringue, date, spices, grapefruit, chocolate",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/decaf-mexico-3"
+                },
+                {
+                    "name": "Yolanda Dominguez",
+                    "price": "39.00",
+                    "roast_lvl": "3/5",
+                    "country": "Mexico",
+                    "process": "Washed",
+                    "tasting_notes": "dark chocolate, sunflower seed, lemon, cinnamon",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/yolanda-dominguez"
+                },
+                {
+                    "name": "Josefina Pascual",
+                    "price": "39.00",
+                    "roast_lvl": "2/5",
+                    "country": "Mexico",
+                    "process": "Washed",
+                    "tasting_notes": "honey, raspberry, pineapple, almond",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/josefina-pascual"
+                },
+                {
+                    "name": "Luis Roldan - Yellow Caturra",
+                    "price": "22.00",
+                    "roast_lvl": "2/5",
+                    "country": "Guatemala",
+                    "process": "Washed",
+                    "tasting_notes": "plum, caramel, lychee, red apple",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/luis-roldan-yellow-caturra"
+                },
+                {
+                    "name": "Benito Sanchez",
+                    "price": "26.00",
+                    "roast_lvl": "2/5",
+                    "country": "Honduras",
+                    "process": "Washed",
+                    "tasting_notes": "blood orange, peach, caramel, pecan",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/benito-sanchez"
+                },
+                {
+                    "name": "Instant Coffee Box - Wendy & Luis",
+                    "price": "19.95",
+                    "roast_lvl": "N/A",
+                    "country": "Guatemala",
+                    "process": "Washed",
+                    "tasting_notes": "hazelnut spread, caramelized apple, cane sugar",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/instant-coffee-box-wendy-luis"
+                },
+                {
+                    "name": "The Experience Box",
+                    "price": "62.00",
+                    "roast_lvl": "N/A",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/experience-box"
+                },
+                {
+                    "name": "Decaf Colombia",
+                    "price": "23.00",
+                    "roast_lvl": "3.5/5",
+                    "country": "Colombia",
+                    "process": "washed",
+                    "tasting_notes": "caramel, grapes, milk chocolate, baking spices",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/decaf-colombia-2"
+                },
+                {
+                    "name": "El Volcancito",
+                    "price": "21.50",
+                    "roast_lvl": "4/5",
+                    "country": "Guatemala",
+                    "process": "Washed",
+                    "tasting_notes": "dark chocolate, butter, almonds, candied orange",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/el-volcancito"
+                },
+                {
+                    "name": "Chocolate Berry Espresso",
+                    "price": "21.50",
+                    "roast_lvl": "4/5",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": "chocolate, wild berries",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/chocolate-berry-espresso-1"
+                },
+                {
+                    "name": "Foret Noire",
+                    "price": "20.50",
+                    "roast_lvl": "4.5/5",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": "roasted marshmallow, chocolate, black cherry",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/foret-noire-1"
+                },
+                {
+                    "name": "Round-the-Clock Espresso",
+                    "price": "20.50",
+                    "roast_lvl": "5/5",
+                    "country": "Guatemala",
+                    "process": "Washed",
+                    "tasting_notes": "chocolate, nutty, caramel, bold.",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/round-the-clock-espresso-1"
+                },
+                {
+                    "name": "Monkaaba Decaf",
+                    "price": "23.00",
+                    "roast_lvl": "2/5",
+                    "country": "Colombia",
+                    "process": "washed",
+                    "tasting_notes": "clementine, chocolatine, hazelnut, apricot",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/monkaaba-decaf"
+                },
+                {
+                    "name": "Mindful",
+                    "price": "23.25",
+                    "roast_lvl": "3.5/5",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": "dark chocolate, marshmallow, peach jam, almond",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/mindful"
+                },
+                {
+                    "name": "Zen",
+                    "price": "23.25",
+                    "roast_lvl": "2/5",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": "plum, candied orange, milk chocolate, raspberry",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/zen"
+                },
+                {
+                    "name": "Mandarin Blend",
+                    "price": "14.00",
+                    "roast_lvl": "",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/mandarin-blend"
+                },
+                {
+                    "name": "Wolf Pack Dark Blend",
+                    "price": "14.00",
+                    "roast_lvl": "",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/wolf-pack-dark-blend"
+                },
+                {
+                    "name": "Google Filter Blend - Dark - 2 kg",
+                    "price": "130.00",
+                    "roast_lvl": "",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/google-filter-blend-dark-2-kg"
+                },
+                {
+                    "name": "Google Filter Blend - Medium - 2 kg",
+                    "price": "130.00",
+                    "roast_lvl": "",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/google-filter-blend-medium-2-kg"
+                },
+                {
+                    "name": "Google Espresso Blend - 2 kg",
+                    "price": "130.00",
+                    "roast_lvl": "",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/google-espresso-blend-2-kg"
+                },
+                {
+                    "name": "Oreade Custom Coffee - 2 kg",
+                    "price": "130.00",
+                    "roast_lvl": "",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/oreade-custom-coffee-2-kg"
+                },
+                {
+                    "name": "Google Decaf - 2 kg",
+                    "price": "130.00",
+                    "roast_lvl": "",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/google-decaf-2-kg"
+                },
+                {
+                    "name": "Google Filter Blend - Pourover - 2 kg",
+                    "price": "130.00",
+                    "roast_lvl": "",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/copy-of-google-filter-blend-medium-2-kg"
+                },
+                {
+                    "name": "Wholesale Sample Box *NEW ACCOUNTS ONLY*",
+                    "price": "62.00",
+                    "roast_lvl": "N/A",
+                    "country": null,
+                    "process": null,
+                    "tasting_notes": null,
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/wholesale-sample-box-new-accounts-only"
+                },
+                {
+                    "name": "Gyan Nuwakot - Natural",
+                    "price": "30.00",
+                    "roast_lvl": "1/5",
+                    "country": "Nepal",
+                    "process": "Natural",
+                    "tasting_notes": "papaya, watermelon, blackberry jam, white sugar",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/gyan-nuwakot-natural"
+                },
+                {
+                    "name": "TPJ Hampang - Washed",
+                    "price": "30.00",
+                    "roast_lvl": "3/5",
+                    "country": "Nepal",
+                    "process": "Washed",
+                    "tasting_notes": "baking spices, apricot, almond, cherry",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/tpj-hampang-washed"
+                },
+                {
+                    "name": "Gyan Nuwakot - Honey",
+                    "price": "30.00",
+                    "roast_lvl": "2/5",
+                    "country": "Nepal",
+                    "process": "Honey",
+                    "tasting_notes": "pomegranate, peach, dried cranberry, cane sugar",
+                    "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/gyan-nuwakot-honey"
+                }
+            ]
+        },
+        "Detour Coffee Roasters": {
+            "timestamp": "2025-05-25",
+            "coffee_data": [
+                {
+                    "name": "9 to Five | Special Release",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "White Honey",
+                    "tasting_notes": [
+                        "Peanut Brittle",
+                        "Chocolate Wafer",
+                        "Butter Croissant",
+                        "Balanced: layered, structured"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/9-to-5-special-release"
+                },
+                {
+                    "name": "Punch Buggy Espresso",
+                    "price": "21.00",
+                    "roast_lvl": "N/A",
+                    "process": "Natural + Washed",
+                    "tasting_notes": [
+                        "Chocolate",
+                        "Hazelnut",
+                        "Cherry",
+                        "Balanced: layered, structured"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/punch-buggy-espresso-1"
+                },
+                {
+                    "name": "Bouncy Castle Espresso",
+                    "price": "22.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": [
+                        "Floral",
+                        "Citrus",
+                        "Sparkling",
+                        "Vibrant: bright, dynamic"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/bouncy-castle-espresso"
+                },
+                {
+                    "name": "Bottleneck",
+                    "price": "22.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": [
+                        "Chocolate",
+                        "Toffee",
+                        "Fig",
+                        "Balanced: layered, structured"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/bottle-neck"
+                },
+                {
+                    "name": "Water the Flowers, Pray for a Garden Blend | Valley Artist Collab",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": [
+                        "Floral",
+                        "Milk Chocolate",
+                        "Citrus",
+                        "Vibrant: bright, dynamic"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/water-the-flowers-pray-for-a-garden"
+                },
+                {
+                    "name": "Detour Dark",
+                    "price": "21.00",
+                    "roast_lvl": "N/A",
+                    "process": "Natural + Washed",
+                    "tasting_notes": [
+                        "Dark Chocolate",
+                        "Molasses",
+                        "Toasted Nuts",
+                        "Balanced: layered, structured"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/detour-dark"
+                },
+                {
+                    "name": "Colombia Miramar Pink Bourbon",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": [
+                        "Pomegranate",
+                        "Candy Cane",
+                        "Purple Grape",
+                        "Complex: expressive, wild"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/miramar-colombia-1"
+                },
+                {
+                    "name": "Ecuador El Sauce",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": [
+                        "Clementine",
+                        "Guava",
+                        "Nougat",
+                        "Complex: expressive, wild"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/el-sauce-ecuador-1"
+                },
+                {
+                    "name": "Ethiopia Faficho Black Honey",
+                    "price": "34.00",
+                    "roast_lvl": "N/A",
+                    "process": "Black Honey",
+                    "tasting_notes": [
+                        "Raspberry",
+                        "Lavender",
+                        "Fuzzy Peach",
+                        "Elegant: delicate, nuanced"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/faficho-black-honey-ethiopia"
+                },
+                {
+                    "name": "Ethiopia Faficho Red Honey",
+                    "price": "34.00",
+                    "roast_lvl": "N/A",
+                    "process": "Red Honey",
+                    "tasting_notes": [
+                        "Pomegranate",
+                        "Guava",
+                        "Berry Compote",
+                        "Vibrant: bright, dynamic"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/faficho-red-honey-ethiopia"
+                },
+                {
+                    "name": "Bolivia Copacabana Women's Blend",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed Anaerobic",
+                    "tasting_notes": [
+                        "Apple Sauce",
+                        "Yellow Plum",
+                        "Milk Chocolate",
+                        "Elegant: delicate, nuanced"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/copacabana-womens-blend-bolivia"
+                },
+                {
+                    "name": "Kenya Kianderi",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": [
+                        "Violet",
+                        "Gooseberry",
+                        "Concord Grape",
+                        "Vibrant: bright, dynamic"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/kianderi-kenya-1"
+                },
+                {
+                    "name": "Honduras Don Chepe Espresso",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed, Extended Fermentation",
+                    "tasting_notes": [
+                        "Golden Apple",
+                        "Brown Sugar",
+                        "Hazelnut",
+                        "Vibrant: bright, dynamic"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/don-chepe-honduras"
+                },
+                {
+                    "name": "Ethiopia Chorso Cascara Co-ferment Espresso",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed and Cascara co-fermented",
+                    "tasting_notes": [
+                        "Red Berry",
+                        "Orange Marmalade",
+                        "Jasmine Tea",
+                        "Elegant: delicate, nuanced"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/chorso-cascara-co-ferment-ethiopia"
+                },
+                {
+                    "name": "Kenya Kathakwa Espresso",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": [
+                        "Guava",
+                        "Cascara Tea",
+                        "Blackberry",
+                        "Vibrant: bright, dynamic"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/kathakwa-kenya-espresso"
+                },
+                {
+                    "name": "Colombia Huila Decaf",
+                    "price": "22.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed, E.A Decaffeinated",
+                    "tasting_notes": [
+                        "Grape",
+                        "Caramel",
+                        "Apple",
+                        "Balanced: layered, structured"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/decaf-huila-colombia"
+                },
+                {
+                    "name": "No Punch Backs Half Caf",
+                    "price": "22.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed & Washed/ E.A. Decaffeinated",
+                    "tasting_notes": [
+                        "Caramel",
+                        "Dark Chocolate",
+                        "Cherry",
+                        "Balanced: layered, structured"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/no-punch-backs-half-caf-blend"
+                },
+                {
+                    "name": "Essentials Tasting Pack",
+                    "price": "60.00",
+                    "roast_lvl": "N/A",
+                    "process": null,
+                    "tasting_notes": [],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/detour-coffee-starter-pack"
+                },
+                {
+                    "name": "Single Origin Tasting Pack",
+                    "price": "70.00",
+                    "roast_lvl": "N/A",
+                    "process": null,
+                    "tasting_notes": [],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/detour-single-origin-tasting-pack"
+                },
+                {
+                    "name": "Espresso Tasting Pack",
+                    "price": "66.00",
+                    "roast_lvl": "N/A",
+                    "process": null,
+                    "tasting_notes": [],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/espresso-tasting-pack"
+                },
+                {
+                    "name": "This is a Test (Roast)",
+                    "price": "50.00",
+                    "roast_lvl": "N/A",
+                    "process": "Various",
+                    "tasting_notes": [],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/test-roast"
+                },
+                {
+                    "name": "Punch Buggy Instant Coffee",
+                    "price": "20.00",
+                    "roast_lvl": "N/A",
+                    "process": "Natural + Washed",
+                    "tasting_notes": [
+                        "Cherry",
+                        "Hazelnut",
+                        "Chocolate",
+                        "Balanced: layered, structured"
+                    ],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/punch-buggy-instant-coffee"
+                },
+                {
+                    "name": "Gift Card | Detour Coffee Roasters",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": null,
+                    "tasting_notes": [],
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/coffee-gift-card"
+                }
+            ]
+        }
+    }
+}
