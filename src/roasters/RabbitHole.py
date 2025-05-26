@@ -1,4 +1,4 @@
-from Roaster import Roaster
+from roasters.Roaster import Roaster
 from bs4 import BeautifulSoup
 import re
 
@@ -70,4 +70,4 @@ class RabbitHole(Roaster):
                 if impressions and process and country:
                     break
 
-        return {"name": name, "price": price, "roast_lvl": roast_lvl, "country":country, "process":process, "tasting_notes": impressions}
+        return {"roaster": "Rabbit Hole", "name": name, "price": price, "roast_lvl": roast_lvl, "country":country, "process":process, "tasting_notes": impressions}

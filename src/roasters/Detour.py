@@ -1,4 +1,4 @@
-from Roaster import Roaster
+from roasters.Roaster import Roaster
 from bs4 import BeautifulSoup
 import re
 
@@ -50,4 +50,4 @@ class Detour(Roaster):
                     break
 
 
-        return {"name": name, "price": price, "roast_lvl": roast_lvl, "process":process_value, "tasting_notes": tasting_notes}
+        return {"roaster": "Detour", "name": name, "price": price, "roast_lvl": roast_lvl, "process":process_value, "tasting_notes": tasting_notes}

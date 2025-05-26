@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import re
 import simplejson as json
 from datetime import datetime as Date
 
@@ -99,4 +98,5 @@ class Roaster:
                 coffee_info = self.get_coffee_information(coffee_soup)
                 coffee_info["url"] = self.main_url + coffee
                 coffee_data.append(coffee_info)
+                print(f"\rFetched data for {len(coffee_data)} coffees.", end="")
         return coffee_data
