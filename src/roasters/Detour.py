@@ -24,7 +24,7 @@ class Detour(Roaster):
             for child in profile_div.find_all('div', recursive=True):
                 if not child.find('img') and child.get_text(strip=True):
                     tasting_notes.append(child.get_text(strip=True))
-
+        tasting_notes = ', '.join(tasting_notes) if tasting_notes else "N/A"
         
         roast_lvl = ""
         desecription = soup.find("meta",  {"property":"og:description", "content": True})

@@ -99,4 +99,5 @@ class Roaster:
                 coffee_info["url"] = self.main_url + coffee
                 coffee_data.append(coffee_info)
                 print(f"\rFetched data for {len(coffee_data)} coffees.", end="")
+        print("") # New line after the progress update
         return coffee_data

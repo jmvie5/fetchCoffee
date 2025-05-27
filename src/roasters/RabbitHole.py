@@ -5,7 +5,7 @@ import re
 class RabbitHole(Roaster):
     def __init__(self):
         super().__init__(
-            name="Rabbit Hole Roasters",
+            name="Rabbit Hole",
             main_url="https://www.rabbitholeroasters.com",
             product_url="/collections/all-coffee/products"
         )
@@ -67,7 +67,11 @@ class RabbitHole(Roaster):
                             break
 
                 # Exit early if all found
-                if impressions and process and country:
+                if process and country:
                     break
+        
+        if impressions:
+            if not isinstance(impressions, str):
+                impressions = ', '.join(impressions)
 
-        return {"roaster": "Rabbit Hole", "name": name, "price": price, "roast_lvl": roast_lvl, "country":country, "process":process, "tasting_notes": impressions}
+        return {"roaster": self.name, "name": name, "price": price, "roast_lvl": roast_lvl, "country":country, "process":process, "tasting_notes":impressions}
