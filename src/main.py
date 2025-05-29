@@ -1,12 +1,15 @@
 from roasters.RabbitHole import RabbitHole
 from roasters.Detour import Detour
 from roasters.Roaster import Roaster
+from roasters.Cantook import Cantook
 import typer
 from typing_extensions import Annotated
+from datetime import datetime as Date, timedelta
 
 roasters:dict[str, Roaster] = {
         'Rabbit Hole': RabbitHole(),
-        'Detour': Detour()
+        'Detour': Detour(),
+        'Cantook': Cantook()
     }
 
 app = typer.Typer(no_args_is_help=True)
@@ -26,7 +29,7 @@ def fetch(
         max_price: Annotated[float, typer.Option(..., "--price", "-p", help="Set max price filter.")] = float('inf'),
         country: Annotated[str, typer.Option(..., "--country", "-c", help="Filter by country of origin.")] = "",
         process: Annotated[str, typer.Option(..., "--process", "-pr", help="Filter by processing method.")] = "",
-        tasting_notes: Annotated[str, typer.Option(..., "--notes", "-n", help="Filter by tasting notes.")] = ""
+        tasting_notes: Annotated[list[str], typer.Option(..., "--notes", "-n", help="Filter by tasting notes.")] = []
 ):
     """
     Fetch coffee data from the specified roaster or all roasters if none is specified.
@@ -43,7 +46,7 @@ def fetch(
         for roaster in roaster_filter:
             if roaster in roasters:
                 r = roasters[roaster]
-                r.load_data_from_file()
+                r.fetch_coffee_data()
                 coffee_data.extend(r.coffee_data)
             else:
                 print(f"Roaster '{roaster}' not found.")
@@ -70,6 +73,7 @@ def fetch(
         return
     
     print(format_coffee_data(coffee_data))
+    print(f"Total coffees found: {len(coffee_data)}")
     
 
 def format_coffee_data(coffee_data:list[dict]):
@@ -86,7 +90,11 @@ def filter_coffee_data(coffee_data, field: str, value):
         coffee for coffee in coffee_data
         if (
             (value is None and not coffee.get(field)) or
-            (isinstance(value, str) and isinstance(coffee.get(field), str) and value.lower() in coffee.get(field, '').lower())
+            (isinstance(value, str) and isinstance(coffee.get(field), str) and value.lower() in coffee.get(field, '').lower()) or
+            (isinstance(value, list) and any(
+                isinstance(v, str) and v.lower() in coffee.get(field, '').lower()
+                for v in value
+            ))
         )
     ]
 

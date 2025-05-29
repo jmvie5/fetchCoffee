@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import simplejson as json
-from datetime import datetime as Date
+from datetime import datetime as Date, timedelta
 
 class Roaster:
 
@@ -9,7 +9,7 @@ class Roaster:
         self.name = name
         self.main_url = main_url
         self.product_url = product_url
-        self.data_timestamp = ""
+        self.data_timestamp = '1970-01-01'
         self.coffee_data = []
 
     def __str__(self):
@@ -56,8 +56,8 @@ class Roaster:
 
     def fetch_coffee_data(self):
         self.load_data_from_file()
-        now = Date.now().strftime("%Y-%m-%d")
-        if (self.data_timestamp != now):
+        now = Date.now().date()
+        if (Date.strptime(self.data_timestamp, "%Y-%m-%d").date() + timedelta(weeks=1) < now):
             print(f"Outdated or no data. Fetching new data for {self.name}...")
             self.data_timestamp = now
             url = self.main_url + self.product_url

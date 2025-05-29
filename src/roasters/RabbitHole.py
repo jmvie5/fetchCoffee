@@ -28,9 +28,9 @@ class RabbitHole(Roaster):
                 roast_lvl = "N/A"
 
         rte_div = soup.find('div', class_='Rte')
-        impressions = None
-        process = None
-        country = None
+        impressions = ''
+        process = ''
+        country = ''
 
         if rte_div:
             # --- Impressions ---

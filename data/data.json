@@ -1,7 +1,7 @@
 {
     "roasters": {
         "Rabbit Hole": {
-            "timestamp": "2025-05-27",
+            "timestamp": "2025-05-28",
             "coffee_data": [
                 {
                     "roaster": "Rabbit Hole",
@@ -128,9 +128,9 @@
                     "name": "The Experience Box",
                     "price": "62.00",
                     "roast_lvl": "N/A",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/experience-box"
                 },
                 {
@@ -158,8 +158,8 @@
                     "name": "Chocolate Berry Espresso",
                     "price": "21.50",
                     "roast_lvl": "4/5",
-                    "country": null,
-                    "process": null,
+                    "country": "",
+                    "process": "",
                     "tasting_notes": "chocolate, wild berries",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/chocolate-berry-espresso-1"
                 },
@@ -168,8 +168,8 @@
                     "name": "Foret Noire",
                     "price": "20.50",
                     "roast_lvl": "4.5/5",
-                    "country": null,
-                    "process": null,
+                    "country": "",
+                    "process": "",
                     "tasting_notes": "roasted marshmallow, chocolate, black cherry",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/foret-noire-1"
                 },
@@ -198,8 +198,8 @@
                     "name": "Mindful",
                     "price": "23.25",
                     "roast_lvl": "3.5/5",
-                    "country": null,
-                    "process": null,
+                    "country": "",
+                    "process": "",
                     "tasting_notes": "dark chocolate, marshmallow, peach jam, almond",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/mindful"
                 },
@@ -208,8 +208,8 @@
                     "name": "Zen",
                     "price": "23.25",
                     "roast_lvl": "2/5",
-                    "country": null,
-                    "process": null,
+                    "country": "",
+                    "process": "",
                     "tasting_notes": "plum, candied orange, milk chocolate, raspberry",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/zen"
                 },
@@ -218,9 +218,9 @@
                     "name": "Mandarin Blend",
                     "price": "14.00",
                     "roast_lvl": "",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/mandarin-blend"
                 },
                 {
@@ -228,9 +228,9 @@
                     "name": "Wolf Pack Dark Blend",
                     "price": "14.00",
                     "roast_lvl": "",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/wolf-pack-dark-blend"
                 },
                 {
@@ -238,9 +238,9 @@
                     "name": "Google Filter Blend - Dark - 2 kg",
                     "price": "130.00",
                     "roast_lvl": "",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/google-filter-blend-dark-2-kg"
                 },
                 {
@@ -248,9 +248,9 @@
                     "name": "Google Filter Blend - Medium - 2 kg",
                     "price": "130.00",
                     "roast_lvl": "",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/google-filter-blend-medium-2-kg"
                 },
                 {
@@ -258,9 +258,9 @@
                     "name": "Google Espresso Blend - 2 kg",
                     "price": "130.00",
                     "roast_lvl": "",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/google-espresso-blend-2-kg"
                 },
                 {
@@ -268,9 +268,9 @@
                     "name": "Oreade Custom Coffee - 2 kg",
                     "price": "130.00",
                     "roast_lvl": "",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/oreade-custom-coffee-2-kg"
                 },
                 {
@@ -278,9 +278,9 @@
                     "name": "Google Decaf - 2 kg",
                     "price": "130.00",
                     "roast_lvl": "",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/google-decaf-2-kg"
                 },
                 {
@@ -288,9 +288,9 @@
                     "name": "Google Filter Blend - Pourover - 2 kg",
                     "price": "130.00",
                     "roast_lvl": "",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/copy-of-google-filter-blend-medium-2-kg"
                 },
                 {
@@ -298,9 +298,9 @@
                     "name": "Wholesale Sample Box *NEW ACCOUNTS ONLY*",
                     "price": "62.00",
                     "roast_lvl": "N/A",
-                    "country": null,
-                    "process": null,
-                    "tasting_notes": null,
+                    "country": "",
+                    "process": "",
+                    "tasting_notes": "",
                     "url": "https://www.rabbitholeroasters.com/collections/all-coffee/products/wholesale-sample-box-new-accounts-only"
                 },
                 {
@@ -335,7 +335,7 @@
                 }
             ]
         },
-        "Detour Coffee Roasters": {
+        "Detour": {
             "timestamp": "2025-05-27",
             "coffee_data": [
                 {
@@ -544,6 +544,121 @@
                     "process": null,
                     "tasting_notes": "N/A",
                     "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/coffee-gift-card"
+                }
+            ]
+        },
+        "Cantook": {
+            "timestamp": "2025-05-28",
+            "coffee_data": [
+                {
+                    "roaster": "Cantook",
+                    "name": "Collection Gesha 2025",
+                    "price": "50.00",
+                    "country": "Leon Cortes, Tarrazù / Huila",
+                    "roast_lvl": "N/A",
+                    "process": "Honey Reposado / Anaérobique",
+                    "tasting_notes": "Chocolat au lait, bleuet, litchi / Citronelle, bergamote, fruits exotiques",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/collection-gesha-2025"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "Café El Abejonal - Cantook Micro-Torréfacteur",
+                    "price": "25.00",
+                    "country": "Leon Cortes, Tarrazù",
+                    "roast_lvl": "N/A",
+                    "process": "Honey reposado",
+                    "tasting_notes": "Chocolat au lait, bleuet, litchi",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/el-abejonal"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "Café Finca La Villa - Cantook Micro-Torréfacteur",
+                    "price": "25.00",
+                    "country": "San Jose de Isnos,Huila",
+                    "roast_lvl": "N/A",
+                    "process": "Anaérobie lavé",
+                    "tasting_notes": "Citronelle, bergamote, fruits exotiques",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/finca-villa-gesha"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "Savane Zombie",
+                    "price": "24.00",
+                    "country": "Kolen",
+                    "roast_lvl": "N/A",
+                    "process": "Lavé",
+                    "tasting_notes": "Chocolat noir, noisette, mélasse",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/savane-zombie"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "Diego Bermudez",
+                    "price": "25.00",
+                    "country": "Vereda Los Arados, Piendamó-Cauca",
+                    "roast_lvl": "N/A",
+                    "process": "Choc thermique lavé",
+                    "tasting_notes": "Fruits tropicaux, pêche, lilas",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/diego-bermudez"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "La Karola",
+                    "price": "23.00",
+                    "country": "Leon Cortes, Tarrazù",
+                    "roast_lvl": "N/A",
+                    "process": "Naturel",
+                    "tasting_notes": "Rose, sumac, canneberge",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/la-karola"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "El Durazno",
+                    "price": "23.00",
+                    "country": "El Llano de la Piedra, Tarrazù",
+                    "roast_lvl": "N/A",
+                    "process": "Miel Jaune",
+                    "tasting_notes": "Caramel, camomille, amélanchier",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/el-durazno"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "Don Eli El Llano",
+                    "price": "23.00",
+                    "country": "El Llano de La Piedra, Tarrazù",
+                    "roast_lvl": "N/A",
+                    "process": "Honey Reposado",
+                    "tasting_notes": "Caramel, sablé au beurre, marmelade",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/el-llano"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "Espresso 550",
+                    "price": "22.00",
+                    "country": "Guatemala, Brésil",
+                    "roast_lvl": "N/A",
+                    "process": "Lavé et miel",
+                    "tasting_notes": "Caramel, chocolat, noisette",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/espresso-550"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "Las Lajas",
+                    "price": "23.00",
+                    "country": "Sabanilla de Alajuela",
+                    "roast_lvl": "N/A",
+                    "process": "Miel 100% mucilage",
+                    "tasting_notes": "Fraise, fermantation, jujube",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/las-lajas"
+                },
+                {
+                    "roaster": "Cantook",
+                    "name": "EA Decaf de Caña",
+                    "price": "21.00",
+                    "country": "La Huila",
+                    "roast_lvl": "N/A",
+                    "process": "Décaféiné à l'acétate d'éthyle",
+                    "tasting_notes": "Biscuit graham, cacao, caramel, agrume",
+                    "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/ea-decaf-de-cana"
                 }
             ]
         }

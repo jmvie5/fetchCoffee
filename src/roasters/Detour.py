@@ -5,7 +5,7 @@ import re
 class Detour(Roaster):
     def __init__(self):
         super().__init__(
-            name="Detour Coffee Roasters",
+            name="Detour",
             main_url="https://detourcoffee.com",
             product_url="/collections/direct-trade-coffee/products"
         )
@@ -50,4 +50,4 @@ class Detour(Roaster):
                     break
 
 
-        return {"roaster": "Detour", "name": name, "price": price, "roast_lvl": roast_lvl, "process":process_value, "tasting_notes": tasting_notes}
+        return {"roaster": self.name, "name": name, "price": price, "roast_lvl": roast_lvl, "process":process_value, "tasting_notes": tasting_notes}
