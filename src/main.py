@@ -2,14 +2,16 @@ from roasters.RabbitHole import RabbitHole
 from roasters.Detour import Detour
 from roasters.Roaster import Roaster
 from roasters.Cantook import Cantook
+from roasters.FortyNine import FortyNine
 import typer
 from typing_extensions import Annotated
 from datetime import datetime as Date, timedelta
 
 roasters:dict[str, Roaster] = {
-        'Rabbit Hole': RabbitHole(),
+        'Rabbit_Hole': RabbitHole(),
         'Detour': Detour(),
-        'Cantook': Cantook()
+        'Cantook': Cantook(),
+        '49th': FortyNine()
     }
 
 app = typer.Typer(no_args_is_help=True)
@@ -29,7 +31,8 @@ def fetch(
         max_price: Annotated[float, typer.Option(..., "--price", "-p", help="Set max price filter.")] = float('inf'),
         country: Annotated[str, typer.Option(..., "--country", "-c", help="Filter by country of origin.")] = "",
         process: Annotated[str, typer.Option(..., "--process", "-pr", help="Filter by processing method.")] = "",
-        tasting_notes: Annotated[list[str], typer.Option(..., "--notes", "-n", help="Filter by tasting notes.")] = []
+        tasting_notes: Annotated[list[str], typer.Option(..., "--notes", "-n", help="Filter by tasting notes.")] = [],
+        force_fetch: Annotated[bool, typer.Option(..., "--force", "-f", help="Force fetch new data even if not outdated.")] = False
 ):
     """
     Fetch coffee data from the specified roaster or all roasters if none is specified.
@@ -46,7 +49,7 @@ def fetch(
         for roaster in roaster_filter:
             if roaster in roasters:
                 r = roasters[roaster]
-                r.fetch_coffee_data()
+                r.fetch_coffee_data(force_fetch)
                 coffee_data.extend(r.coffee_data)
             else:
                 print(f"Roaster '{roaster}' not found.")
@@ -55,7 +58,7 @@ def fetch(
                     print(f" - {name}")
     else:
         for r in list(roasters.values()):
-            r.fetch_coffee_data()
+            r.fetch_coffee_data(force_fetch)
             coffee_data.extend(r.coffee_data)
 
     if country:

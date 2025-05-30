@@ -661,6 +661,251 @@
                     "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/ea-decaf-de-cana"
                 }
             ]
+        },
+        "49th": {
+            "timestamp": "2025-05-30",
+            "coffee_data": [
+                {
+                    "roaster": "49th",
+                    "name": "Kenya Marimira Peaberry (6oz)",
+                    "price": "28.00",
+                    "country": " kenya",
+                    "roast_lvl": " light filter roast",
+                    "process": " washed",
+                    "tasting_notes": "Brown Sugar, Chocolate, Green Apple",
+                    "url": "https://49thcoffee.com/collections/all/products/kenya-marimira-peaberry"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Honduras Bella Vista Espresso",
+                    "price": "26.00",
+                    "country": " honduras",
+                    "roast_lvl": " light espresso roast",
+                    "process": " washed",
+                    "tasting_notes": "Blackberry Jam, Floral, Nectarine",
+                    "url": "https://49thcoffee.com/collections/all/products/honduras-bella-vista-2"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Burundi Masha",
+                    "price": "26.00",
+                    "country": " burundi",
+                    "roast_lvl": " light filter roast",
+                    "process": " washed",
+                    "tasting_notes": "Baking Spice, Cane Sugar, Chocolate",
+                    "url": "https://49thcoffee.com/collections/all/products/burundi-masha"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "'World's Best' Espresso",
+                    "price": "25.00",
+                    "country": " rwanda",
+                    "roast_lvl": " medium-light espresso roast",
+                    "process": " natural",
+                    "tasting_notes": "Cherry, Concord Grape, Strawberry Jam",
+                    "url": "https://49thcoffee.com/collections/all/products/worlds-best-espresso-rwanda-abakundakawa"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Old School Espresso",
+                    "price": "22.00",
+                    "country": " guatemala",
+                    "roast_lvl": " medium-dark espresso roast",
+                    "process": " washed",
+                    "tasting_notes": "Caramel, Dark Chocolate, Nuts",
+                    "url": "https://49thcoffee.com/collections/all/products/old-school-espresso"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Ethiopia Udeyi Espresso - Anniversary Roast",
+                    "price": "25.00",
+                    "country": " ethiopia",
+                    "roast_lvl": " medium espresso roast",
+                    "process": " natural",
+                    "tasting_notes": "Blueberry, Peach, Vanilla",
+                    "url": "https://49thcoffee.com/collections/all/products/ethiopia-udeyi-espresso-anniversary-roast"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Bolivia Taipiplaya",
+                    "price": "26.00",
+                    "country": " bolivia/\nregion",
+                    "roast_lvl": " medium filter roast",
+                    "process": " washed",
+                    "tasting_notes": "Milk Chocolate, Nuts, Red Apple",
+                    "url": "https://49thcoffee.com/collections/all/products/bolivia-taipiplaya"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Honduras El Ocotillo",
+                    "price": "26.00",
+                    "country": " honduras",
+                    "roast_lvl": " light filter roast",
+                    "process": " washed",
+                    "tasting_notes": "Juicy, Lychee, Naval Orange",
+                    "url": "https://49thcoffee.com/collections/all/products/honduras-el-ocotillo-sof"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "North Star Espresso",
+                    "price": "25.00",
+                    "country": " ethiopia",
+                    "roast_lvl": " medium espresso roast",
+                    "process": " washed",
+                    "tasting_notes": "Black Tea, Honey, Lemon Zest",
+                    "url": "https://49thcoffee.com/collections/all/products/north-star-soe"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Kenya Kangocho Espresso",
+                    "price": "27.00",
+                    "country": " kenya",
+                    "roast_lvl": " light espresso roast",
+                    "process": " washed",
+                    "tasting_notes": "Dried Fig, Hibiscus, Pomegranate",
+                    "url": "https://49thcoffee.com/collections/all/products/kenya-kangocho-espresso"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "North Star Espresso Bundle",
+                    "price": "42.00",
+                    "country": "N/A",
+                    "roast_lvl": "N/A",
+                    "process": "N/A",
+                    "tasting_notes": "N/A",
+                    "url": "https://49thcoffee.com/collections/all/products/north-star-espresso-bundle"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "North Star Filter Bundle",
+                    "price": "42.00",
+                    "country": "N/A",
+                    "roast_lvl": "N/A",
+                    "process": "N/A",
+                    "tasting_notes": "N/A",
+                    "url": "https://49thcoffee.com/collections/all/products/north-star-filter-bundle"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Espresso Lovers Bundle",
+                    "price": "44.00",
+                    "country": "N/A",
+                    "roast_lvl": "N/A",
+                    "process": "N/A",
+                    "tasting_notes": "N/A",
+                    "url": "https://49thcoffee.com/collections/all/products/espresso-lovers-bundle"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Filter Lovers Bundle",
+                    "price": "48.00",
+                    "country": "N/A",
+                    "roast_lvl": "N/A",
+                    "process": "N/A",
+                    "tasting_notes": "N/A",
+                    "url": "https://49thcoffee.com/collections/all/products/filter-lovers-bundle"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Epic Espresso",
+                    "price": "22.00",
+                    "country": " peru",
+                    "roast_lvl": " light espresso roast",
+                    "process": " washed",
+                    "tasting_notes": "Clean, Floral, Sweet",
+                    "url": "https://49thcoffee.com/collections/all/products/epic-espresso"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Blue Sky Espresso",
+                    "price": "22.00",
+                    "country": " varies",
+                    "roast_lvl": " dark espresso roast",
+                    "process": "N/A",
+                    "tasting_notes": "Dark Chocolate, Intense, Molasses",
+                    "url": "https://49thcoffee.com/collections/all/products/blue-sky-espresso"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Middle School Espresso",
+                    "price": "22.00",
+                    "country": " guatemala",
+                    "roast_lvl": " medium espresso roast",
+                    "process": " washed",
+                    "tasting_notes": "Cocoa, Dried Fruit, Toffee",
+                    "url": "https://49thcoffee.com/collections/all/products/middle-school-espresso"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Longitude 123°W Blend",
+                    "price": "22.00",
+                    "country": " varies",
+                    "roast_lvl": " medium-light filter roast",
+                    "process": "N/A",
+                    "tasting_notes": "Almond, Apple, Raisin",
+                    "url": "https://49thcoffee.com/collections/all/products/123-w-longitude-blend"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Organic Breakfast Roast",
+                    "price": "22.00",
+                    "country": " varies",
+                    "roast_lvl": " medium-dark filter roast",
+                    "process": " washed",
+                    "tasting_notes": "Baker's Chocolate, Dried Fig, Pecan",
+                    "url": "https://49thcoffee.com/collections/all/products/organic-breakfast-roast"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Nostalgia · Organic",
+                    "price": "22.00",
+                    "country": "N/A",
+                    "roast_lvl": "N/A",
+                    "process": "N/A",
+                    "tasting_notes": "Brown Sugar, Pecan, Prune",
+                    "url": "https://49thcoffee.com/collections/all/products/nostalgia-organic"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Signature Espresso Set 1",
+                    "price": "60.00",
+                    "country": "N/A",
+                    "roast_lvl": "N/A",
+                    "process": "N/A",
+                    "tasting_notes": "N/A",
+                    "url": "https://49thcoffee.com/collections/all/products/signature-espresso-set-1"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Signature Espresso Set 2",
+                    "price": "60.00",
+                    "country": "N/A",
+                    "roast_lvl": "N/A",
+                    "process": "N/A",
+                    "tasting_notes": "N/A",
+                    "url": "https://49thcoffee.com/collections/all/products/signature-espresso-set-2"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Signature Filter Set",
+                    "price": "60.00",
+                    "country": "N/A",
+                    "roast_lvl": "N/A",
+                    "process": "N/A",
+                    "tasting_notes": "N/A",
+                    "url": "https://49thcoffee.com/collections/all/products/signature-filter-set"
+                },
+                {
+                    "roaster": "49th",
+                    "name": "Organic Espresso",
+                    "price": "22.00",
+                    "country": " varies",
+                    "roast_lvl": " medium-dark espresso roast",
+                    "process": " washed",
+                    "tasting_notes": "Dried Dates, Nougat, Walnut",
+                    "url": "https://49thcoffee.com/collections/all/products/organic-espresso"
+                }
+            ]
         }
     }
 }

@@ -54,10 +54,10 @@ class Roaster:
             json.dump(data, file, ensure_ascii=False, indent=4)
             print(f"Saved data for {self.name} to file.")
 
-    def fetch_coffee_data(self):
+    def fetch_coffee_data(self, force_fetch:bool = False):
         self.load_data_from_file()
         now = Date.now().date()
-        if (Date.strptime(self.data_timestamp, "%Y-%m-%d").date() + timedelta(weeks=1) < now):
+        if (force_fetch or Date.strptime(self.data_timestamp, "%Y-%m-%d").date() + timedelta(weeks=1) < now):
             print(f"Outdated or no data. Fetching new data for {self.name}...")
             self.data_timestamp = now
             url = self.main_url + self.product_url
