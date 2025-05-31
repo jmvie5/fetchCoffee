@@ -17,13 +17,51 @@ roasters:dict[str, Roaster] = {
 app = typer.Typer(no_args_is_help=True)
 
 @app.command()
-def ls():
+def ls(
+    is_roaster: Annotated[bool, typer.Option(..., "--roaster", "-r", help="Possible roaster")] = False,
+    is_country: Annotated[bool, typer.Option(..., "--country", "-c", help="Possible country or region of origin.")] = False,
+    is_roast_lvl: Annotated[bool, typer.Option(..., "--roast", "-ro", help="Possible roast level.")] = False,
+    is_tasting_notes: Annotated[bool, typer.Option(..., "--notes", "-n", help="Possible tasting notes.")] = False,
+    is_process: Annotated[bool, typer.Option(..., "--process", "-pr", help="Possible processing method.")] = False,
+    all: Annotated[bool, typer.Option(..., "--all", "-a", help="List all possible search term.")]=False
+):
     """
-    List all available roasters.
+    List possible search terms to use with fetch.
     """
-    print("Available roasters:")
-    for name in roasters.keys():
-        print(f" - {name}")
+    if not (is_roaster or is_country or is_roast_lvl or is_tasting_notes or is_process or all):
+        typer.echo("Please specify at least one option to list possible search terms. Use --help for more information.")
+        raise typer.Exit(code=1)
+    if all:
+        is_roaster = is_country = is_roast_lvl = is_tasting_notes = is_process = True
+    
+    if is_roaster:
+        print("Available roasters:")
+        for name in roasters.keys():
+            print(f" - {name}")
+
+    all_coffee_data = []
+    for roaster in roasters:
+        roasters[roaster].load_data_from_file()
+        all_coffee_data.extend(roasters[roaster].coffee_data)
+
+
+    fields = []
+    if is_country:
+        fields.append("country")
+    if is_roast_lvl:
+        fields.append("roast_lvl")
+    if is_process:
+        fields.append("process")
+    if is_tasting_notes:
+        fields.append("tasting_notes")
+
+    keywords = get_all_coffee_data_keywords()
+
+    for field in fields:
+        print(f"\nPossible {field} keywords:")
+        for kw in sorted(keywords[field]):
+            print(f" - {kw}")
+    
 
 @app.command()
 def fetch(
@@ -88,18 +126,105 @@ def format_coffee_data(coffee_data:list[dict]):
     
     return res
 
-def filter_coffee_data(coffee_data, field: str, value):
-    return [
-        coffee for coffee in coffee_data
-        if (
-            (value is None and not coffee.get(field)) or
-            (isinstance(value, str) and isinstance(coffee.get(field), str) and value.lower() in coffee.get(field, '').lower()) or
-            (isinstance(value, list) and any(
-                isinstance(v, str) and v.lower() in coffee.get(field, '').lower()
-                for v in value
-            ))
-        )
-    ]
+def filter_coffee_data(coffee_data: list[dict], field: str, value) -> list[dict]:
+    """
+    Filter coffee data based on a field and value.
+    
+    Args:
+        coffee_data: List of coffee dictionaries to filter
+        field: The field to filter on (e.g. 'country', 'process')
+        value: The value to filter for (can be string or list of strings)
+        
+    Returns:
+        Filtered list of coffee dictionaries
+    """
+    filtered_coffees = []
+    
+    for coffee in coffee_data:
+        field_value = coffee.get(field, '')
+        
+        # Skip if no value to check against
+        if value is None:
+            if not field_value:  # Keep items with empty field
+                filtered_coffees.append(coffee)
+            continue
+
+        # Convert field value to string for searching
+        if not isinstance(field_value, str):
+            continue
+            
+        field_value = field_value.lower()
+
+        if isinstance(value, str):
+            if value.lower() in field_value:
+                filtered_coffees.append(coffee)
+                
+        elif isinstance(value, list):
+            for v in value:
+                if v.lower() in field_value:
+                    filtered_coffees.append(coffee)
+                    break
+                    
+    return filtered_coffees
+
+def get_all_coffee_data_keywords():
+    all_coffee_data = []
+    for roaster in roasters:
+        roasters[roaster].load_data_from_file()
+        all_coffee_data.extend(roasters[roaster].coffee_data)
+
+
+    fields = ["country", "roast_lvl", "process", "tasting_notes"]
+    keywords = {field: set() for field in fields}
+
+    for coffee in all_coffee_data:
+        for field in fields:
+            value = coffee.get(field)
+            if not value or value == "N/A":
+                continue
+            # Split tasting_notes and process by comma, others as is
+            if field == "tasting_notes":
+                for note in value.split(","):
+                    note = note.strip().lower()
+                    if note:
+                        keywords[field].add(note)
+            elif field == "process":
+                for part in value.replace("+", ",").replace("&", ",").replace("/", ",").replace("|", ",").split(","):
+                    part = part.strip().lower()
+                    if part.find("decaf") != -1 or part.find("décaf") != -1:
+                        part = "decaffeinated"
+                    elif part.find("honey") != -1 or part.find("miel") != -1:
+                        part = "honey"
+                    elif part.find("washed") != -1 or part.find("lavé") != -1:
+                        part = "washed"
+                    elif part.find("natural") != -1 or part.find("naturel") != -1:
+                        part = "natural"
+                    if part:
+                        keywords[field].add(part)
+            elif field == "roast_lvl":
+                for roast in value.replace("/", ",").replace("|", ",").replace(",", " ").split(" "):
+                    roast = roast.strip().lower()
+                    if roast == "roast":
+                        continue
+                    if roast:
+                        keywords[field].add(roast)
+            else:
+                # Some fields may have slashes or pipes, split those too
+                for part in value.replace("+", ",").replace("&", ",").replace("/", ",").replace("|", ",").split(","):
+                    part = part.strip().lower()
+                    if part.find("decaf") != -1 or part.find("décaf") != -1:
+                        part = "decaffeinated"
+                    elif part.find("honey") != -1 or part.find("miel") != -1:
+                        part = "honey"
+                    elif part.find("washed") != -1 or part.find("lavé") != -1:
+                        part = "washed"
+                    elif part.find("natural") != -1 or part.find("naturel") != -1:
+                        part = "natural"
+                    if part:
+                        keywords[field].add(part)
+
+    return keywords
+
 
 if __name__ == "__main__":
     app()

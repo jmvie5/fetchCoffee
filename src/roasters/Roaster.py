@@ -29,9 +29,6 @@ class Roaster:
                 if self.name in data['roasters']:
                     self.coffee_data = data['roasters'][self.name]['coffee_data']
                     self.data_timestamp = data['roasters'][self.name]['timestamp']
-                    print(f"Loaded data for {self.name} from file.")
-                else:
-                    print(f"Roaster {self.name} not found in the file.")
         except (FileNotFoundError, json.JSONDecodeError):
             data = {"roasters": {}}
 

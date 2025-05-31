@@ -41,6 +41,8 @@ class Cantook(Roaster):
                 process.lower()
                 process.replace("miel", "honey")
                 process.replace("lavé", "washed")
+                if process.lower().find("décaféiné") != -1:
+                    process += " | decaffeinated"
 
 
         return {"roaster": self.name, "name": name, "price": price, "country":country, "roast_lvl": roast_lvl, "process":process, "tasting_notes": tasting_notes}

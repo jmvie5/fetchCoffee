@@ -548,7 +548,7 @@
             ]
         },
         "Cantook": {
-            "timestamp": "2025-05-28",
+            "timestamp": "2025-05-30",
             "coffee_data": [
                 {
                     "roaster": "Cantook",
@@ -656,7 +656,7 @@
                     "price": "21.00",
                     "country": "La Huila",
                     "roast_lvl": "N/A",
-                    "process": "Décaféiné à l'acétate d'éthyle",
+                    "process": "Décaféiné à l'acétate d'éthyle | decaffeinated",
                     "tasting_notes": "Biscuit graham, cacao, caramel, agrume",
                     "url": "https://cantookcafe.com/collections/cafes-de-specialite/products/ea-decaf-de-cana"
                 }
