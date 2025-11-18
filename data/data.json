@@ -336,16 +336,34 @@
             ]
         },
         "Detour": {
-            "timestamp": "2025-05-27",
+            "timestamp": "2025-11-18",
             "coffee_data": [
                 {
                     "roaster": "Detour",
-                    "name": "9 to Five | Special Release",
+                    "name": "Holiday Blend",
                     "price": "25.00",
                     "roast_lvl": "N/A",
-                    "process": "White Honey",
-                    "tasting_notes": "Peanut Brittle, Chocolate Wafer, Butter Croissant, Balanced: layered, structured",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/9-to-5-special-release"
+                    "process": "Natural & Washed",
+                    "tasting_notes": "Cherry, Marmalade, Milk Chocolate, Vibrant: bright, dynamic",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/holiday-blend-2025"
+                },
+                {
+                    "roaster": "Detour",
+                    "name": "Holiday Espresso",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Natural & Washed",
+                    "tasting_notes": "Apricot, Toasted Nut, Cacao Nibs, Elegant: delicate, nuanced",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/holiday-espresso"
+                },
+                {
+                    "roaster": "Detour",
+                    "name": "Holiday Favourites Pack",
+                    "price": "70.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed + Natural",
+                    "tasting_notes": "N/A",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/holiday-tasting-pack"
                 },
                 {
                     "roaster": "Detour",
@@ -367,21 +385,21 @@
                 },
                 {
                     "roaster": "Detour",
+                    "name": "Small Talk",
+                    "price": "22.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": "Chocolate, Caramel, Dried Fruit, Balanced: layered, structured",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/small-talk"
+                },
+                {
+                    "roaster": "Detour",
                     "name": "Bottleneck",
                     "price": "22.00",
                     "roast_lvl": "N/A",
                     "process": "Washed",
                     "tasting_notes": "Chocolate, Toffee, Fig, Balanced: layered, structured",
                     "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/bottle-neck"
-                },
-                {
-                    "roaster": "Detour",
-                    "name": "Water the Flowers, Pray for a Garden Blend | Valley Artist Collab",
-                    "price": "25.00",
-                    "roast_lvl": "N/A",
-                    "process": "Washed",
-                    "tasting_notes": "Floral, Milk Chocolate, Citrus, Vibrant: bright, dynamic",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/water-the-flowers-pray-for-a-garden"
                 },
                 {
                     "roaster": "Detour",
@@ -394,84 +412,75 @@
                 },
                 {
                     "roaster": "Detour",
-                    "name": "Colombia Miramar Pink Bourbon",
+                    "name": "Like a Rembrandt | Artist Collab x Julianna Riolino",
                     "price": "25.00",
                     "roast_lvl": "N/A",
                     "process": "Washed",
-                    "tasting_notes": "Pomegranate, Candy Cane, Purple Grape, Complex: expressive, wild",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/miramar-colombia-1"
+                    "tasting_notes": "Cortland Apple, Milk Chocolate, Roasted Hazelnut, Balanced: layered, structured",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/like-a-rembrandt-artist-collab-x-julianna-riolino"
                 },
                 {
                     "roaster": "Detour",
-                    "name": "Ecuador El Sauce",
+                    "name": "Ethiopia Arbegona",
                     "price": "25.00",
                     "roast_lvl": "N/A",
                     "process": "Washed",
-                    "tasting_notes": "Clementine, Guava, Nougat, Complex: expressive, wild",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/el-sauce-ecuador-1"
+                    "tasting_notes": "Honeysuckle, Lavender, Tangerine, Elegant: delicate, nuanced",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/ethiopiaarbegona"
                 },
                 {
                     "roaster": "Detour",
-                    "name": "Ethiopia Faficho Black Honey",
-                    "price": "34.00",
-                    "roast_lvl": "N/A",
-                    "process": "Black Honey",
-                    "tasting_notes": "Raspberry, Lavender, Fuzzy Peach, Elegant: delicate, nuanced",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/faficho-black-honey-ethiopia"
-                },
-                {
-                    "roaster": "Detour",
-                    "name": "Ethiopia Faficho Red Honey",
-                    "price": "34.00",
-                    "roast_lvl": "N/A",
-                    "process": "Red Honey",
-                    "tasting_notes": "Pomegranate, Guava, Berry Compote, Vibrant: bright, dynamic",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/faficho-red-honey-ethiopia"
-                },
-                {
-                    "roaster": "Detour",
-                    "name": "Bolivia Copacabana Women's Blend",
-                    "price": "25.00",
-                    "roast_lvl": "N/A",
-                    "process": "Washed Anaerobic",
-                    "tasting_notes": "Apple Sauce, Yellow Plum, Milk Chocolate, Elegant: delicate, nuanced",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/copacabana-womens-blend-bolivia"
-                },
-                {
-                    "roaster": "Detour",
-                    "name": "Kenya Kianderi",
+                    "name": "Uganda Sironko Yellow Honey",
                     "price": "25.00",
                     "roast_lvl": "N/A",
                     "process": "Washed",
-                    "tasting_notes": "Violet, Gooseberry, Concord Grape, Vibrant: bright, dynamic",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/kianderi-kenya-1"
+                    "tasting_notes": "Golden Raisin, Dried Apricot, Cocoa, Complex: expressive, wild",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/uganda-sironko-station-yellow-honey"
                 },
                 {
                     "roaster": "Detour",
-                    "name": "Honduras Don Chepe Espresso",
-                    "price": "25.00",
-                    "roast_lvl": "N/A",
-                    "process": "Washed, Extended Fermentation",
-                    "tasting_notes": "Golden Apple, Brown Sugar, Hazelnut, Vibrant: bright, dynamic",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/don-chepe-honduras"
-                },
-                {
-                    "roaster": "Detour",
-                    "name": "Ethiopia Chorso Cascara Co-ferment Espresso",
-                    "price": "25.00",
-                    "roast_lvl": "N/A",
-                    "process": "Washed and Cascara co-fermented",
-                    "tasting_notes": "Red Berry, Orange Marmalade, Jasmine Tea, Elegant: delicate, nuanced",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/chorso-cascara-co-ferment-ethiopia"
-                },
-                {
-                    "roaster": "Detour",
-                    "name": "Kenya Kathakwa Espresso",
+                    "name": "Guatemala El Duranzo",
                     "price": "25.00",
                     "roast_lvl": "N/A",
                     "process": "Washed",
-                    "tasting_notes": "Guava, Cascara Tea, Blackberry, Vibrant: bright, dynamic",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/kathakwa-kenya-espresso"
+                    "tasting_notes": "Toffee, Golden Delicious Apple, Macadamia Nut, Balanced: layered, structured",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/guatemala-el-duranzo"
+                },
+                {
+                    "roaster": "Detour",
+                    "name": "Ethiopia Hamasho Natural",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Natural",
+                    "tasting_notes": "Pomegranate, Lavender, Blueberry, Vibrant: bright, dynamic",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/hamasho-natural-ethiopia-2"
+                },
+                {
+                    "roaster": "Detour",
+                    "name": "Colombia El Roble",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": "Strawberry, Cantaloupe, Clementine, Complex: expressive, wild",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/el-roble-colombia-1"
+                },
+                {
+                    "roaster": "Detour",
+                    "name": "Mexico La Piedra Espresso",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": "Milk Chocolate, Lemon Meringue, Almond Shortbread, Balanced: layered, structured",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/la-piedra-mexico-espresso"
+                },
+                {
+                    "roaster": "Detour",
+                    "name": "Guatemala El Colmenar Espresso",
+                    "price": "25.00",
+                    "roast_lvl": "N/A",
+                    "process": "Washed",
+                    "tasting_notes": "Yellow Plum, Apricot, Dulche de Leche, Balanced: layered, structured",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/el-colmenar-espresso-guatemala"
                 },
                 {
                     "roaster": "Detour",
@@ -521,7 +530,7 @@
                 {
                     "roaster": "Detour",
                     "name": "This is a Test (Roast)",
-                    "price": "50.00",
+                    "price": "55.00",
                     "roast_lvl": "N/A",
                     "process": "Various",
                     "tasting_notes": "N/A",
@@ -529,12 +538,30 @@
                 },
                 {
                     "roaster": "Detour",
-                    "name": "Punch Buggy Instant Coffee",
-                    "price": "20.00",
+                    "name": "Monthly Coffee Club",
+                    "price": "45.50",
                     "roast_lvl": "N/A",
-                    "process": "Natural + Washed",
-                    "tasting_notes": "Cherry, Hazelnut, Chocolate, Balanced: layered, structured",
-                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/punch-buggy-instant-coffee"
+                    "process": null,
+                    "tasting_notes": "N/A",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/detour-coffee-club-coffee-subscription"
+                },
+                {
+                    "roaster": "Detour",
+                    "name": "Blend Coffee Subscription",
+                    "price": "38.50",
+                    "roast_lvl": "N/A",
+                    "process": null,
+                    "tasting_notes": "N/A",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/coffee-subscription-house-menu-3"
+                },
+                {
+                    "roaster": "Detour",
+                    "name": "Single Origin Coffee Subscription",
+                    "price": "42.50",
+                    "roast_lvl": "N/A",
+                    "process": null,
+                    "tasting_notes": "N/A",
+                    "url": "https://detourcoffee.com/collections/direct-trade-coffee/products/single-origin-coffee-subscription"
                 },
                 {
                     "roaster": "Detour",
